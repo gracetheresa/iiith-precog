@@ -20,12 +20,12 @@ Readability (Flesch-Kincaid Grade Level)
 
 Task 2: The Multi-Tiered Detective-
 Built and evaluated three AI detection models:
-Tier A: Random Forest/XGBoost using handcrafted statistical features.
+Tier A: Random Forest using handcrafted statistical features.
 Tier B: Feedforward Neural Network using pre-trained word embeddings.
-Tier C: Transformer-based model (DistilBERT/RoBERTa with LoRA fine-tuning).
+Tier C: Transformer-based model (DistilBERT with LoRA fine-tuning).
 
 Task 3: The Smoking Gun
-Interpreted model predictions using explainability techniques such as SHAP/Captum to identify linguistic patterns that indicate AI-generated text and performed error analysis on misclassified samples.
+Interpreted model predictions using explainability techniques such as Captum to identify linguistic patterns that indicate AI-generated text and performed error analysis on misclassified samples.
 
 Task 4: The Turing Test-
 Implemented a Genetic Algorithm to iteratively modify AI-generated text with the goal of bypassing the detector while preserving the original meaning. The robustness of the detector was also evaluated using manually edited human and AI-written text.
