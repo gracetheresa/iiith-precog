@@ -23,6 +23,7 @@ Built and evaluated three AI detection models:
 Tier A: Random Forest/XGBoost using handcrafted statistical features.
 Tier B: Feedforward Neural Network using pre-trained word embeddings.
 Tier C: Transformer-based model (DistilBERT/RoBERTa with LoRA fine-tuning).
+
 Task 3: The Smoking Gun
 Interpreted model predictions using explainability techniques such as SHAP/Captum to identify linguistic patterns that indicate AI-generated text and performed error analysis on misclassified samples.
 
